@@ -53,3 +53,8 @@
 #print(str(f) + " mm")
 
 #EXERCISE 9)
+#reais = float((input("How much R$ do have?: ")))
+#dollars = reais / 3.45
+#dollars = float("%0.2f" % (dollars))
+#print(dollars)
+#print("Your R$ " + str(reais)  + " are in " + " $ " + str(dollars))
