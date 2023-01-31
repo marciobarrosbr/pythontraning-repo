@@ -53,8 +53,56 @@
 #print(str(f) + " mm")
 
 #EXERCISE 9)
-#reais = float((input("How much R$ do have?: ")))
+#reais = float((input("How much R$ do you have?: ")))
 #dollars = reais / 3.45
 #dollars = float("%0.2f" % (dollars))
-#print(dollars)
 #print("Your R$ " + str(reais)  + " are in " + " $ " + str(dollars))
+ 
+#EXERCISE 10)
+#h = float(input("input with height: "))
+#l = float(input("input with leght :"))
+#are = h * l
+#lt = are / 2
+#print("The total area is "+ str(are) + " m2" + " and the amount of paint needed is " + str(lt) + " liter")
+
+#EXERCICE 11)
+#import math
+#a = int(input("a = "))
+#b = int(input("b = "))
+#c = int(input("c = "))
+#delta = b ** 2 - (4 * a * c)
+
+#if delta < 0:
+#    print("DELTA = " + str(delta))
+#    print("The is no real roots")
+#elif delta == 0:
+#    x1 = -b / (2 * a)
+#    print("DELTA =" + str(delta))
+#    print("x1 = x2 = " + str(x1))
+#else:
+#    x1 = (-b - math.sqrt(delta)) / (2 * a)
+#    x2 = (-b + math.sqrt(delta)) / (2 * a)
+#    print("x1 = " + str(round(x1)))
+#    print("x2 = " + str(round(x2)))
+
+#EXERCICE 12)
+
+#a = float(input("input the price tag: "))
+#b = a -(a * 5) / 100
+#print("The price is " + str(float("%0.2f" % (b))))
+
+#EXERCISE 13)
+#a = float(input("digite o salario: "))
+#b = a + (a * 15) / 100
+#print("Seu novo salario: " + str(float("%0.2f" % (b))))
+
+#EXERCISE 14)
+#a = int(input("km rodado: "))
+#b = int(input("dia usados: "))
+#c = 90 * b + 0.2 * a
+#print("valor a pagar: R$" + str(float("%0.2f" % (c))))
+
+#exercice 15)
+#a = int(input("dias trabalhados: "))
+#b = a * 8 * 25
+#print("com " + str(a) + " dias trabalhados, valor ganho: " + str(float("%0.1f" % (b))))
