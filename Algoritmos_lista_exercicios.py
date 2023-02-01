@@ -202,11 +202,69 @@
 #    print("Seu percurso de km" + str(km) + " tem um custo de R$ "+ str(float("%0.2f" % (km_cobr))))
 
 #EXERCISE 25)
-print("Faz triangulo?")
-n1 = int(input("RETA 01: "))
-n2 = int(input("RETA 02: "))
-n3 = int(input("RETA 03: "))
-if (n1 < (n2 + n3)) and (n2 < (n1 + n3)) and (n3 < (n2 + n1)):
-    print("É possivel foram triangulo")
-else:
-    print("Não é povivel formar truiangulo")
+#print("Faz triangulo?")
+#n1 = int(input("RETA 01: "))
+#n2 = int(input("RETA 02: "))
+#n3 = int(input("RETA 03: "))
+#if (n1 < (n2 + n3)) and (n2 < (n1 + n3)) and (n3 < (n2 + n1)):
+#    print("É possivel foram triangulo")
+#else:
+#    print("Não é povivel formar truiangulo")
+
+#EXERCISE 26)
+#print("Digite os valores para comparação")
+#v1 = int(input("VALOR 01: "))
+#v2 = int(input("VALOR 02: "))
+#if v1 > v2:
+#    print("O primeiro valor é maior")
+#elif v2 > v1:
+#    print("O segundo valor é maior")
+#else:
+#    v1 == v2
+#    print("Não existe maior, os dois são iguais")
+
+#EXERCISE 27)
+#print("Média e STATUS do Semestre")
+#n1 = float(input("NOTA 01: "))
+#n2 = float(input("NOTA 02: "))
+#med = (n1 + n2) / 2
+#if med <= 4.9:
+#    print("reprovado")
+#elif med >= 5 and med <= 6.9:
+#    print(" em recuperação")
+#elif med >= 7.0:
+#    print("aprovado")
+
+#EXERCISE 28)
+#print("Classificação Territorial")
+#print("-------------------------")
+
+#l = int(input("Informe a Largura do Terreno:"))
+#c = int(input("informe o comptimento do terreno"))
+#h = l * c
+#if h <= 100:
+#    print("O terreno possui " + str(h) + " m2. Classificação: Terreno Popupar") 
+#    print("---------------------")
+#if h >= 100 and h <= 500:
+#    print("O terreno possui " + str(h) + " m2. Classificação: Terreno master")
+#    print("---------------------")
+#if h >= 501:
+#    print("O terreno possui " + str(h) + " m2. Calassificação: Terreno de VIP")
+
+
+#EXERCISE 29)
+#print("-------------------------")
+#print("TABELA DE PROMOÇOES DO RH")
+#print("-------------------------")
+#nome = input("NOME DO FUNCIONARIO: ")
+#sal = float(input("SALÁRIO DO FUNCIONARIO: "))
+#anos = int(input("ANOS TRABALHADOS: "))
+#if anos <= 3:
+#    nsal = sal + (sal * 3) / 100
+#    print(nome + " recebe o almento de 3% passando a receber R$ "+ str(nsal))
+#elif anos > 3 and anos <= 10:
+#    nsal = sal + (sal * 12.5) / 100
+#    print(nome + " recebe o almento de 12.5% passando a receber R$ " + str(nsal))
+#elif anos > 10 and anos <= 20:
+#    nsal = sal + (sal * 20) / 100
+#    print(nome + " recebe o almento de 20% passando a receber R$ " + str(nsal))
