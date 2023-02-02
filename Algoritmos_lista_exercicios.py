@@ -268,3 +268,44 @@
 #elif anos > 10 and anos <= 20:
 #    nsal = sal + (sal * 20) / 100
 #    print(nome + " recebe o almento de 20% passando a receber R$ " + str(nsal))
+ 
+#EXERCISE 30)
+#resp = "sim"
+#equi = iso = tri = esc = bool
+#while resp == "sim":
+    #print("------------------------------------------")
+    #print("Verifique a exixtencia e tipo de triangulo")
+    #print("Forneça os lados do triângulo")
+    #l1 = int(input("l1 = "))
+    #l2 = int(input("l2 = "))
+    #l3 = int(input("l3 = "))
+    #tri = (l1 <l2 + l3) and (l2 < l1 + l3) and (l3 <l1 + l2)
+    #print("FORMA TRIANDULO: " + str(tri))
+    #equi = (l1 == l2) and (l1 == l3) and tri
+    #print("FORMA EQUILATERO: " + str(equi)) 
+    #iso = (l1==l2) and (l1!=l3) and tri or (l2==l3) and (l1!=l2) and tri or (l3==l1) and (l3!=l2) and tri
+    #print("FORMA ISOCELES: " + str(iso))
+    #esc = (l1!=l2) and (l1!=l3) and (l2!=l3) and tri
+    #print("FORMA ESCALENO: " + str(esc))
+    #print("-----------------------------------------")
+    #resp = input("Deseja continuar [sim/não]:  ")
+
+#EXERCISE 31)
+#resp = "sim"
+#while resp == "sim":
+    
+    #print("Partidas de JoKenpo")
+    #print("[[1]PEDRA")
+    #print("[2]PAPEL")
+    #print("[3]TESOURA")
+    #n1 = int(input("ESCOLHA: "))
+    #n2 = int(input("ESCOLHA: "))
+    #if (n1 == 1) and (n2 == 2) or (n2 == 1 ) and (n1 ==2):
+    #    print("PAPEL GANHA DE PEDRA")
+    #elif (n1 == 1) and (n2 == 3) or (n1 == 3) and (n2 == 1):
+    #    print("PEDRA GANHA DE TESOURA")
+    #elif (n1 == 2) and (n2 == 3) or (n1 == 3) and (n2 == 2):
+    #    print("TESOURA GANHA DE PAPEL")
+    #resp = input("Deseja continuar [sim/não]: ")
+    #print("---------------------------------------")
+    #print("---------------------------------------")
