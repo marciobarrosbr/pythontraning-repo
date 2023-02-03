@@ -5,37 +5,37 @@
 #first_name = input("What is your name? :")
 #last_name = input("What is your last name?: ")
 #print("ola " + first_name +" "+ last_name + ", é um prazer te conhecer")
-
+#
 #EXERCICIO 3)
 #nome = input("Nome do Funcionario: ")
 #sal = (input("Salario: "))
 #print ("O funcionário " + nome + " tem um salário de "+ sal + " em junho.")
-
+#
 #EXERCICIO 4)
 #b = int(input("apresenteo segundo valor: "))
 #answer = a + b
 #print("A soma entre " + str(a) + " e " + str(b) + " é igual a " + str(answer))
-
+#
 #EXERCICIO 5)
 #a = float(input("input the fist number: "))
 #b = float(input("Input the second number: "))
 #answer = (a + b)  / 2
 #print("The average between " + str(a) +" e " + str(b) + " it´s the same as " + str(answer))
-
+#
 #EXERCICIO 6)
 #x = int(input("input the number: "))
 #before = x - 1
 #after = x + 1
 #print("The predecessor of " + str(x) +" is " + str(before))
 #print("The sucessor of " + str(x) + " is " + str(after))
- 
+#
 #EXERCISE 7)
 #x = float(input("input the number: "))
 #y = x * 2
 #z = x / 3
 #print("the double of " + str(x) + " is " + str(y))
 #print("the third par of " + str(x) + " is " + str(z))
-
+#
 #exercise 8)
 #x = float(input("input the distance in meters: "))
 #print("the distance of "+ str(x) + " m " + "stands for")
@@ -51,27 +51,27 @@
 #print(str(d) + " dm")
 #print(str(e) + " cm")
 #print(str(f) + " mm")
-
+#
 #EXERCISE 9)
 #reais = float((input("How much R$ do you have?: ")))
 #dollars = reais / 3.45
 #dollars = float("%0.2f" % (dollars))
 #print("Your R$ " + str(reais)  + " are in " + " $ " + str(dollars))
- 
+# 
 #EXERCISE 10)
 #h = float(input("input with height: "))
 #l = float(input("input with leght :"))
 #are = h * l
 #lt = are / 2
 #print("The total area is "+ str(are) + " m2" + " and the amount of paint needed is " + str(lt) + " liter")
-
+#
 #EXERCICE 11)
 #import math
 #a = int(input("a = "))
 #b = int(input("b = "))
 #c = int(input("c = "))
 #delta = b ** 2 - (4 * a * c)
-
+#
 #if delta < 0:
 #    print("DELTA = " + str(delta))
 #    print("The is no real roots")
@@ -309,3 +309,86 @@
     #resp = input("Deseja continuar [sim/não]: ")
     #print("---------------------------------------")
     #print("---------------------------------------")
+
+#EXERCISE 33)
+#resp = "sim"
+#while resp == "sim":
+#    print("CASA DE EMPRESTIMO")
+#    n1 = float(input("VALOR DO IMOVEL: "))
+#    n2 = float(input("SALÁRIO: "))
+#    n3 = int(input("PRAZO PAGAMENTO [anos]: "))
+#    n4 = n2*0.3
+#    n5 = n3*12
+#    n6 =n1/n5
+#    if n6 < n4:
+#        print("Esprestimo altorizado de " + str(n5) + " meses e no valor de R$ " + str(float("%0.2f" % n6)))
+#    else:
+#        print("Emprestimo negado devido valor da parcelas R$ " + str(float("%0.2f" % n6)) + " esta acima de 30% do seu salário R$ " + str(float("%0.2f" % n4)))
+#    resp = input("Deseja continuar [sim/não]: ")
+#    print("-------------------------------")
+#    print("-------------------------------")
+#
+#exercise 34)
+
+#resp = "sim"
+#while resp == "sim":
+#    print("---------TABELA DE IMC---------")
+#    print("Abaixo de 18.5: Abaixo do peso")
+#    print("Entre 18.5 e 24: Peso ideal")
+#    print("Entre 25 e 30: Sobrepeso")
+#    print("Entre 30 e 40: Obesidade")
+#    print("Acima de 40: Obesidade Mórbida")
+#    print("-------------------------------")
+#    n1 = int(input("Fornceça seu Peso: "))
+#    n2 = float(input("Forneça sua altura: "))
+#    imc = (n1 / (n2**2))
+#    if imc  <= 18.5:
+#        print("IMC de " + str(float("%0.2f" % imc)) + " : ABAIXO DO PESO")
+#    elif imc > 18.5 and imc <= 25:
+#        print("IMC de " + str(float("%0.2f" % imc)) + ": PESO IDEAL")
+#    elif imc > 25 and imc <= 30:
+#        print("IMC de " + str(float("%0.2f" % imc)) + ":OBESIDADE")
+#    elif imc > 30 and imc < 40:
+#        print("IMC de " + str(float("%0.2f" % imc)) + ":OBESIDADE MORBIDA")
+#    resp = input("Deseja proceguir [sim/não]: ")
+#    print("----------------------------------")
+#    print("----------------------------------")
+#
+#EXERCISE 35)
+#resp = "sim"
+#def x():
+#    print("Veiculo invalido")
+#while resp == "sim":
+#    print("LOCATIVA VEICULOS")
+#    print("[1] CARRO POPULAR")
+#    print("[2] CARROS DE LUXO")
+#   
+#    
+#    choise = int(input("Escolha o carros: "))
+#    if choise > 2:
+#        x()
+#    else:
+#        n1 = int(input("Km do veiculo: "))
+#        n2 = int(input("Dias de aluguel: "))
+#        n3 = float()
+#        match choise:
+#            case 1:
+#                if n1 <= 100:
+#                    n3 = 90 * int(n2) + int(n1) * 0.2
+#                    print("O veiculo popular foi alugado por " + str(n2) + " dias. Valor a pagar R$ " + str(float("%0.2f" % n3)))
+#                else:
+#                    n3 = 100 * int(n2) + int(n1) * 0.1
+#                    print("O veiculo de luxo foi alugado por" + str(n2) + " dias. Valor a pagar R$ " + str(float("%0.2f" % n3)))
+#            case 2:
+#                if n1 <= 200:
+#                    n3 = 150 * int(n2) + int(n1) * 0.2
+#                    print("O veiculo de luxo foi alugado por " + str(n2) + " dias. Valor a pagar R$ " + str(float("%0.2f" % n3)))
+#                else:
+#                    n3 = 150 * int(n2) + int(n1) * 0.25
+#                    print("O veiculo de luxo foi alugado por " + str(n2) + " dias. Valor a pagar R$ " + str(float("%0.2f" % n3)))
+#            case _:
+#                print("Valor incorreto")    
+#        resp = input("Deseja continuar [sim/não]: ")
+#    print("------------------------------")
+#    print("------------------------------")
+
